@@ -1,0 +1,15 @@
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\bin\Debug\net8.0\BookingApp.Data.deps.json
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\bin\Debug\net8.0\BookingApp.Data.runtimeconfig.json
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\bin\Debug\net8.0\BookingApp.Data.dll
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\bin\Debug\net8.0\BookingApp.Data.pdb
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\obj\Debug\net8.0\BookingApp.Data.csproj.AssemblyReference.cache
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\obj\Debug\net8.0\BookingApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\obj\Debug\net8.0\BookingApp.Data.AssemblyInfoInputs.cache
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\obj\Debug\net8.0\BookingApp.Data.AssemblyInfo.cs
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\obj\Debug\net8.0\BookingApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\obj\Debug\net8.0\BookingApp.Data.sourcelink.json
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\obj\Debug\net8.0\BookingApp.Data.dll
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\obj\Debug\net8.0\refint\BookingApp.Data.dll
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\obj\Debug\net8.0\BookingApp.Data.pdb
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\obj\Debug\net8.0\BookingApp.Data.genruntimeconfig.cache
+C:\Users\onura\Desktop\BookingApp\BookingApp.Data\obj\Debug\net8.0\ref\BookingApp.Data.dll

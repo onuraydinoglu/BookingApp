@@ -1,4 +1,6 @@
-﻿namespace BookingApp.Data.Entities;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace BookingApp.Data.Entities;
 
 public class FeatureEntity : BaseEntity
 {
@@ -6,4 +8,12 @@ public class FeatureEntity : BaseEntity
 
     // Relation Property
     public ICollection<HotelFeatureEntity> HotelFeatures { get; set; }
+}
+
+public class FeatureConfiguration : BaseConfiguration<FeatureEntity>
+{
+    public override void Configure(EntityTypeBuilder<FeatureEntity> builder)
+    {
+        base.Configure(builder);
+    }
 }

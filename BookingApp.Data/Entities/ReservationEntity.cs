@@ -1,4 +1,6 @@
-﻿namespace BookingApp.Data.Entities;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace BookingApp.Data.Entities;
 
 public class ReservationEntity : BaseEntity
 {
@@ -11,4 +13,12 @@ public class ReservationEntity : BaseEntity
     // Relation Property
     public UserEntity User { get; set; }
     public RoomEntity Room { get; set; }
+}
+
+public class ReservationConfiguration : BaseConfiguration<ReservationEntity>
+{
+    public override void Configure(EntityTypeBuilder<ReservationEntity> builder)
+    {
+        base.Configure(builder);
+    }
 }

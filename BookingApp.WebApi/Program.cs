@@ -1,3 +1,4 @@
+using BookingApp.Business.Operations.User;
 using BookingApp.Data;
 using BookingApp.Data.Context;
 using BookingApp.Data.Repositories;
@@ -17,8 +18,10 @@ builder.Services.AddDbContext<BookingAppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 
-builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>)); // Generic yapı olduğu için typeof kullanıldı.
+// Generic yapı olduğu için typeof kullanıldı.
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IUserService, UserManager>();
 
 var app = builder.Build();
 
